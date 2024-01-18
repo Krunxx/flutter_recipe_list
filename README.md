@@ -1,16 +1,6 @@
-# flutter_recipe
+# flutter_recipe GUID
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h1>Iplastar </h1>
+<h3> Ang 'flutter_recipe' is naa dapat sa xampp folder, wala sa htdocs or xampp htdocs folder</h3>
+<img align = "center" alt="pink-theory" width = "100" height = "160" src = "![image](https://github.com/Krunxx/flutter_recipe/assets/82696971/c7cf7f34-0db5-4a0b-a3d0-64c5671a4f03)">
+<h3> Ang 'recipe_api' is naa dapat sa htdocs folder, wala sa htdocs or xampp htdocs folder</h3>
