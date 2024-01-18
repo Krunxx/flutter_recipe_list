@@ -1,6 +1,6 @@
 # flutter_recipe GUIDE
 
-<h1>Iplastar ayha dayun i run</h1>
+<h1>akong pagplastar sa file</h1>
 <h3> Ang 'flutter_recipe' is naa dapat sa xampp folder, dili sa sulod htdocs or xampp htdocs folder</h3>
 <img align = "center" alt="pink-theory" width = "200" height = "100" src = "https://github.com/Krunxx/flutter_recipe/assets/82696971/c7cf7f34-0db5-4a0b-a3d0-64c5671a4f03">
 <h3> Ang 'recipe_api' is naa dapat sa htdocs folder,</h3>
