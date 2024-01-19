@@ -45,7 +45,11 @@ android {
         applicationId "com.example.flutter_recipe"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
+<<<<<<< HEAD
         minSdkVersion flutter.minSdkVersion = 21
+=======
+        minSdkVersion flutter.minSdkVersion
+>>>>>>> f68292203b6a8c639d99ea188471c61d9b5a31b3
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
