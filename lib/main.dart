@@ -1,68 +1,61 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
+import 'package:flutter_recipe/Controllers/controllers.dart';
 import 'package:flutter_recipe/add_recipe/add_screen.dart';
 import 'package:flutter_recipe/main_recipe_book/view_screen.dart';
 import 'package:flutter_recipe/splash_screen/splash_screen.dart';
+import 'package:flutter_recipe/drawer_navigation//navigation_drawer.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'authentication/login.dart';
+import 'color_theme/color_theme.dart';
 
 void main() {
-  runApp(
-      MaterialApp(
-        home: SplashScreen(),
-        debugShowCheckedModeBanner: false,
-      )
-  );
-=======
-import 'package:flutter_recipe/add_screen.dart';
-import 'package:flutter_recipe/view_screen.dart';
-
-void main() {
-  runApp(MaterialApp(home: MyApp()));
->>>>>>> f68292203b6a8c639d99ea188471c61d9b5a31b3
+  runApp(MaterialApp(
+    home: SplashScreen(),
+    debugShowCheckedModeBanner: false,
+  ));
 }
 
 class MyApp extends StatelessWidget {
+  late List<Map<String, dynamic>>
+      records; // Updated to use Map<String, dynamic>
+  List record = [];
+  String? userId;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: CustomTheme.mainTheme,
       appBar: AppBar(
-<<<<<<< HEAD
-        backgroundColor: Colors.orange,
+        centerTitle: true,
+        title: Text("Recipe"),
+        backgroundColor: CustomTheme.headerTheme,
         foregroundColor: Colors.black,
-        title: const Text("Recipe Book"),
         actions: const [],
-        automaticallyImplyLeading: false,
-
+        elevation: 0,
       ),
-      floatingActionButton: FloatingActionButton.extended(
 
-          icon: Icon(Icons.add),
-          label: Text('Add Recipe'),
-          backgroundColor: Colors.orange,
-          foregroundColor: Colors.black,
-=======
-        backgroundColor: Colors.blue,
-        foregroundColor: Colors.white,
-        title: const Text("Recipe Book"),
-        actions: const [],
-        automaticallyImplyLeading: false,
-      ),
-      floatingActionButton: FloatingActionButton.extended(
-          icon: Icon(Icons.add),
-          label: Text('Add Recipe'),
-          backgroundColor: Colors.blue,
-          foregroundColor: Colors.white,
->>>>>>> f68292203b6a8c639d99ea188471c61d9b5a31b3
-          onPressed: () {
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => add_screen(),
-                ));
-          }),
       body: Container(
         padding: const EdgeInsets.all(10.0),
         child: ViewScreen(),
       ),
+
+      floatingActionButton: FloatingActionButton.extended(
+          icon: Icon(Icons.add),
+          label: Text('Add Recipe'),
+          backgroundColor: CustomTheme.buttonTheme,
+          foregroundColor: Colors.black,
+          onPressed: () {
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => AddRecipeScreen(),
+                ));
+          }),
+
+      drawer: DrawerNav('${Controller.reg_email.text}', '${Controller.reg_username.text}'),
     );
   }
 }
+

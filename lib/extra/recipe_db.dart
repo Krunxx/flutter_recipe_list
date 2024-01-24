@@ -36,6 +36,14 @@ class RecipeDatabaseHelper {
     Database db = await database;
     return await db.query(tableName);
   }
+
+  static Future<bool> isRecipeExists(String recipeName) async {
+    Database db = await database;
+    var result = await db.query(
+      tableName,
+      where: 'name = ?',
+      whereArgs: [recipeName],
+    );
+    return result.isNotEmpty;
+  }
 }
-
-

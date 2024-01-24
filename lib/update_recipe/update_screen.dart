@@ -1,31 +1,31 @@
-// ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables
-
 import 'dart:convert';
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_recipe/main.dart';
-import 'package:flutter_recipe/view_recipe/view_recipe.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-
 import 'package:image_picker/image_picker.dart';
 import 'package:http/http.dart' as http;
-
 import '../Controllers/controllers.dart';
+import '../color_theme/color_theme.dart';
+import '../custom_api/custom_api.dart';
 
 class update_screen extends StatefulWidget {
   String? image, name, ind, time, ins, id;
+
   update_screen(this.id, this.image, this.name, this.ind, this.time, this.ins);
 
   @override
-  State<update_screen> createState() => _update_screenState(id, image, name, ind, time, ins);
+  State<update_screen> createState() =>
+      _update_screenState(id, image, name, ind, time, ins);
 }
 
 class _update_screenState extends State<update_screen> {
-  String? image, nam, ind, tim, ins, id;
+ String? image, nam, ind, tim, ins, id;
+
   _update_screenState(
       this.id, this.image, this.nam, this.ind, this.tim, this.ins);
 
+  String uri = ApiUrls.updateRecipe;
 
   @override
   void initState() {
@@ -42,8 +42,8 @@ class _update_screenState extends State<update_screen> {
         Controller.ingradient.text != "" &&
         Controller.time.text != "" &&
         Controller.instruction.text != "") {
-      String url = "http://192.168.254.105/recipe_api/update_image.php";
-      var req = await http.post(Uri.parse(url), body: {
+
+      var req = await http.post(Uri.parse(ApiUrls.updateRecipe), body: {
         "imagename": Controller.imagename,
         "imagedata": Controller.imagedata,
         "name": Controller.name.text,
@@ -56,7 +56,7 @@ class _update_screenState extends State<update_screen> {
       var res = jsonDecode(req.body);
 
       if (res["success"] == "true") {
-        Fluttertoast.showToast(msg: "Success Uploaded");
+        Fluttertoast.showToast(msg: "Update Successfully 🎉");
         Navigator.push(
             context, MaterialPageRoute(builder: (context) => MyApp()));
       } else {
@@ -67,22 +67,55 @@ class _update_screenState extends State<update_screen> {
     }
   }
 
-  Future<void> getImage() async {
-    var getImage = await Controller.imagePicker.pickImage(source: ImageSource.camera);
-
+  Future<void> getImageCamera() async {
+    var getImage =
+    await Controller.imagePicker.pickImage(source: ImageSource.camera);
     setState(() {
       Controller.imagepath = File(getImage!.path);
       Controller.imagename = getImage.path.split('/').last;
-      Controller.imagedata = base64Encode(Controller.imagepath!.readAsBytesSync());
+      Controller.imagedata =
+          base64Encode(Controller.imagepath!.readAsBytesSync());
     });
+  }
+
+  Future<void> getImageGallery() async {
+    var getImage =
+    await Controller.imagePicker.pickImage(source: ImageSource.gallery);
+    setState(() {
+      Controller.imagepath = File(getImage!.path);
+      Controller.imagename = getImage.path.split('/').last;
+      Controller.imagedata =
+          base64Encode(Controller.imagepath!.readAsBytesSync());
+    });
+  }
+
+  @override
+  Widget _buildCancelButton() {
+    if (Controller.imagepath != null) {
+      return IconButton(
+        onPressed: () {
+          setState(() {
+            Controller.imagepath = null;
+            Controller.imagename = '';
+            Controller.imagedata = '';
+          });
+        },
+        icon: Icon(Icons.close),
+      );
+    } else {
+      return SizedBox.shrink(); // Invisible widget if no image is attached
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor:CustomTheme.mainTheme,
       appBar: AppBar(
-          backgroundColor: Colors.orange,
+          backgroundColor:CustomTheme.headerTheme,
           foregroundColor: Colors.black,
+          elevation: 0,
+          centerTitle: true,
           title: const Text("Update Recipe"),
           actions: const [],
           leading: IconButton(
@@ -96,71 +129,95 @@ class _update_screenState extends State<update_screen> {
           padding: const EdgeInsets.all(10.0),
           child: Column(
             children: [
+              SizedBox(
+                height: 20,
+              ),
               TextFormField(
                 controller: Controller.name,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                     border: OutlineInputBorder(),
                     label: Text('Enter the recipe name')),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               TextFormField(
                 controller: Controller.ingradient,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                     border: OutlineInputBorder(),
-                    label: Text('Enter the ingradients')),
+                    label: Text('Enter the ingredients')),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               TextFormField(
                 controller: Controller.time,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                     border: OutlineInputBorder(),
                     label: Text('Enter the total time')),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               TextFormField(
                 controller: Controller.instruction,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                     border: OutlineInputBorder(),
                     label: Text('Enter the instructions')),
+              ),                const SizedBox(
+                height: 20,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  InkWell(
+                    onTap: () {
+                      getImageCamera();
+                      print('Camera');
+                    },
+                    child: Row(
+                      children: [
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.camera),
+                        ),
+                        Text('CAMERA'),
+                      ],
+                    ),
+                  ),
+                  SizedBox(width: 20),
+                  InkWell(
+                    onTap: () {
+                      getImageGallery();
+                      print('Gallery');
+                    },
+                    child: Row(
+                      children: [
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.photo),
+                        ),
+                        Text('GALLERY'),
+                      ],
+                    ),
+                  ),
+                  SizedBox(width: 20),
+                  _buildCancelButton(),
+                ],
               ),
               SizedBox(
                 height: 20,
               ),
-              GestureDetector(
-                  onTap: () {
-                    getImage();
-
-//                    print('work');
-                  },
-                  child: Row(
-                    children: [
-                      IconButton(
-                        onPressed: () {},
-                        icon: Icon(Icons.more_vert),
-                      ),
-                      Text('ATTACHED IMAGE')
-                    ],
-                  )),
               Controller.imagepath != null
                   ? Image.file(Controller.imagepath!)
-                  : Ink.image(
-                      image:
-                          NetworkImage("http://192.168.254.105/recipe_api/" + image!),
-                      height: 200,
-                      fit: BoxFit.cover,
-                    ),
+                  : Text('Image Not Chosen Yet'),
               SizedBox(
                 height: 20,
               ),
               ElevatedButton(
                   style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(Colors.orange),
+                      fixedSize: MaterialStateProperty.all(Size(500, 50)),
+                      backgroundColor: MaterialStateProperty.all(CustomTheme.buttonTheme),
                       foregroundColor: MaterialStateProperty.all(Colors.black)),
                   onPressed: () {
                     setState(() {
@@ -168,10 +225,16 @@ class _update_screenState extends State<update_screen> {
                     });
                   },
                   child: Text('Update')),
-              ElevatedButton(
+              SizedBox(
+                height: 20,
+              ),
+              OutlinedButton(
                   style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(Colors.orange),
-                      foregroundColor: MaterialStateProperty.all(Colors.white)),
+                      fixedSize: MaterialStateProperty.all(Size(500, 50)),
+                      side: MaterialStateProperty.all(
+                          BorderSide(color: Colors.black)),
+                      // Set the outline color
+                      foregroundColor: MaterialStateProperty.all(Colors.black)),
                   onPressed: () {
                     setState(() {
                       Navigator.pop(context);
@@ -185,3 +248,4 @@ class _update_screenState extends State<update_screen> {
     );
   }
 }
+
