@@ -10,9 +10,9 @@ Add Recipe                          - Evami
  <br>
 View Recipe Details & Delete Recipe - Washington
  <br>
-Update Recipe                       - Jesryl
+Update Recipe                       - Jessel Joy
  <br>
-Main View Screen                    -Jesryl
+Main View Screen                    -Jessel Joy
  <br>
 Drawer Navigation                  - Ommayah
 
