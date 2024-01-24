@@ -26,7 +26,7 @@ Flutter Recipe List is a simple application that demonstrates how to build a CRU
 
 One of the standout features of Flutter Recipe List Official is 
  <br>
- ⭐ Can create new recipe with support for physical camera integration and image selection from the internet. 
+ ⭐ Can create new recipe with support for physical camera integration and image selection from the gallery. 
  <br>
  <br>
  ⭐ Can easily navigate to the recipe details page and click on the "Edit" or "Delete" button to modify or remove a recipe.
