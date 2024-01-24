@@ -19,13 +19,15 @@
 **Backend and Functionality - Karen**
 
 
-<img align = "center" alt="pink-theory" width = "1000" height = "600" src = "">
+<img align = "center" alt="pink-theory" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/77e404dd-fafb-4c8f-b6f5-086064ec0c37">
 
 # ABOUT
 
 
 
-Flutter Recipe List is a simple application that demonstrates how to build a CRUD-enabled grid list of recipes using Flutter for the front-end and PHP with MySQL for the back-end. Making sure it has visually appealing design, positions it as a premier choice for recipe management.
+Flutter Recipe List is a simple application that demonstrates 
+how to build a CRUD-enabled grid list of recipes using Flutter for the front-end and PHP with MySQL for the back-end.
+Making sure it has visually appealing design, positions it as a premier choice for recipe management.
 
 <h3>BACKEND Source Link: https://github.com/Krunxx/recipe_api </h3>
 
