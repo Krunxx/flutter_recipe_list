@@ -1,20 +1,20 @@
 **FRONT END UI ASPECT**
  <br>
-Splash Screen                       - Ommayah
+Splash Screen                       -> Ommayah
  <br>
-Register                            - Aillen
+Register                             -> Aillen
  <br>
-Login                               - Aillen
+Login                               -> Aillen
  <br>
-Add Recipe                          - Evami
+Add Recipe                          -> Evami
  <br>
-View Recipe Details & Delete Recipe - Washington
+View Recipe Details & Delete Recipe -> Washington
  <br>
-Update Recipe                       - Jessel Joy
+Update Recipe                        -> Jessel Joy
  <br>
-Main View Screen                    -Jessel Joy
+Main View Screen                    ->Jessel Joy
  <br>
-Drawer Navigation                  - Ommayah
+Drawer Navigation                  -> Ommayah
 
 **Backend and Functionality - Karen Cadalo**
 
