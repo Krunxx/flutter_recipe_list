@@ -32,9 +32,6 @@ One of the standout features of Flutter Recipe List Official is its
  ⭐ Users can easily navigate to the recipe details page and click on the "Edit" or "Delete" button to modify or remove a recipe.
  <br>
  <br>
- ⭐ Users can create their recipe
- <br>
- <br>
  ⭐Search filter for recipe name, and viewing recipe details, making it a comprehensive tool for recipe management.
  <br>
  <br>
