@@ -3,7 +3,7 @@
 
 Flutter Recipe List is a simple official app that demonstrates how to build a CRUD-enabled grid list of recipes using Flutter for the front-end and PHP with MySQL for the back-end. 
 
-One of the standout features of Flutter Recipe List Official is itsx
+One of the standout features of Flutter Recipe List Official is its
  <br>
 ⭐ ability to allow users to update and delete recipes and recipe items. 
  <br>
