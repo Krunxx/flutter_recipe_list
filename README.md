@@ -1,7 +1,7 @@
 **FRONT END UI ASPECT**
  <br>
 1. Splash Screen                       -> Ommayah
- <br>
+
 2. Register                             -> Aillen
  <br>
 3. Login                               -> Aillen
@@ -16,7 +16,7 @@
  <br>
 8. Drawer Navigation                  -> Ommayah
 
-**Backend and Functionality - Karen Cadalo**
+**Backend and Functionality - Karen**
 
 # flutter_recipe
 
