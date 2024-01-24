@@ -1,3 +1,14 @@
+**FRONT END UI ASPECT**
+Splash Screen                       - Ommayah
+Register                            - Aillen
+Login                               - Aillen
+Add Recipe                          - Evami
+View Recipe Details & Delete Recipe - Washington
+Update Recipe                       - Jesryl
+Main View Screen                    -Jesryl
+Drawer Navigation                  - Ommayah
+
+**Backend and Functionality - Karen Cadalo**
 
 # flutter_recipe
 
