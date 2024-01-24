@@ -6,9 +6,8 @@ Flutter Recipe List is a simple official app that demonstrates how to build a CR
 One of the standout features of Flutter Recipe List Official is its
 
  <br>
- ⭐Users can create new recipes by either uploading an image from their device or choosing one from the internet. 
+ ⭐Users can create new recipeswith support for physical camera integration and image selection from the internet. 
  <br>
- ⭐Impressive functionality for image management, with support for physical camera integration and image selection from the internet. 
  <br>
  ⭐ ability to allow users to UPDATE and delete recipes and recipe items. 
  <br>
