@@ -1,11 +1,18 @@
 **FRONT END UI ASPECT**
 Splash Screen                       - Ommayah
+ <br>
 Register                            - Aillen
+ <br>
 Login                               - Aillen
+ <br>
 Add Recipe                          - Evami
+ <br>
 View Recipe Details & Delete Recipe - Washington
+ <br>
 Update Recipe                       - Jesryl
+ <br>
 Main View Screen                    -Jesryl
+ <br>
 Drawer Navigation                  - Ommayah
 
 **Backend and Functionality - Karen Cadalo**
