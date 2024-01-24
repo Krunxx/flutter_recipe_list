@@ -26,18 +26,18 @@ Flutter Recipe List is a simple application that demonstrates how to build a CRU
 
 One of the standout features of Flutter Recipe List Official is its
  <br>
- ⭐Users can create new recipe swith support for physical camera integration and image selection from the internet. 
+ ⭐ Can create new recipe with support for physical camera integration and image selection from the internet. 
  <br>
  <br>
- ⭐ Users can easily navigate to the recipe details page and click on the "Edit" or "Delete" button to modify or remove a recipe.
+ ⭐ Can easily navigate to the recipe details page and click on the "Edit" or "Delete" button to modify or remove a recipe.
  <br>
  <br>
- ⭐Search filter for recipe name, and viewing recipe details, making it a comprehensive tool for recipe management.
+ ⭐ Search filter for recipe name, and viewing recipe details, making it a comprehensive tool for recipe management.
  <br>
  <br>
- ⭐In addition to its CRUD functionality, it  also implements HTTP POST and GET requests, making it a robust and efficient solution for managing recipe data.
+ ⭐ In addition to its CRUD functionality, it  also implements HTTP POST and GET requests, making it a robust and efficient solution for managing recipe data.
 
-Overall, Flutter Recipe List  is an excellent resource for developers applying the flutter fundamentals. Its robust and efficient functionality, combined with its user-friendly interface and visually appealing design, make it a top choice for recipe management.
+Overall, applying Object-Oriented Programming fundamentals using the Flutter framework and Dart programming language, coupled with visually appealing design, positions it as a premier choice for recipe management.
 
 
 
