@@ -3,17 +3,17 @@
 1. Splash Screen                       -> Ommayah
 
 2. Register                             -> Aillen
- <br>
+
 3. Login                               -> Aillen
- <br>
+
 4. Add Recipe                          -> Evami
- <br>
+
 5. View Recipe Details & Delete Recipe -> Washington
- <br>
+
 6. Update Recipe                        -> Jessel Joy
- <br>
+
 7. Main View Screen                    ->Jessel Joy
- <br>
+
 8. Drawer Navigation                  -> Ommayah
 
 **Backend and Functionality - Karen**
