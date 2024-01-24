@@ -18,7 +18,11 @@
 
 **Backend and Functionality - Karen**
 
+
+<img align = "center" alt="pink-theory" width = "1000" height = "600" src = "">
+
 # ABOUT
+
 
 
 Flutter Recipe List is a simple application that demonstrates how to build a CRUD-enabled grid list of recipes using Flutter for the front-end and PHP with MySQL for the back-end. Making sure it has visually appealing design, positions it as a premier choice for recipe management.
@@ -44,17 +48,17 @@ One of the standout features of Flutter Recipe List Official is
 
 
 
-<img align = "center" alt="pink-theory" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/e00b5edc-eda2-4eb4-837d-5a54f08d2884">
+<img align = "center" alt="image" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/e00b5edc-eda2-4eb4-837d-5a54f08d2884">
 <br>
-<img align = "center" alt="pink-theory" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/1c596fa2-9856-405b-b7cd-1148029d6104">
+<img align = "center" alt="image" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/1c596fa2-9856-405b-b7cd-1148029d6104">
 <br>
-<img align = "center" alt="pink-theory" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/a879dbfb-f21d-4749-b519-128bda312a14">
+<img align = "center" alt="image" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/a879dbfb-f21d-4749-b519-128bda312a14">
 <br>
-<img align = "center" alt="pink-theory" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/3c736fb0-9879-4398-a83f-55862000f226">
+<img align = "center" alt="image" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/3c736fb0-9879-4398-a83f-55862000f226">
 <br>
-<img align = "center" alt="pink-theory" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/402a6be2-7eb3-4702-9730-f34deef8ee8a">
+<img align = "center" alt="image" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/402a6be2-7eb3-4702-9730-f34deef8ee8a">
 <br>
-<img align = "center" alt="pink-theory" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/56218500-6a88-4c30-bbfb-bc0a6616a401">
+<img align = "center" alt="image" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/56218500-6a88-4c30-bbfb-bc0a6616a401">
 <br>
-<img align = "center" alt="pink-theory" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/2fb7f37e-6bd4-4afc-8f26-4ac6edaddd05">
+<img align = "center" alt="image" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/2fb7f37e-6bd4-4afc-8f26-4ac6edaddd05">
 
