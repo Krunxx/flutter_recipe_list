@@ -37,8 +37,9 @@ One of the standout features of Flutter Recipe List Official is
  <br>
  <br>
  ⭐ In addition to its CRUD functionality, it  also implements HTTP POST and GET requests, making it a robust and efficient solution for managing recipe data.
-
- ⭐ Overall, applying Object-Oriented Programming fundamentals using the Flutter framework and Dart programming language.
+ <br>
+ <br>
+ ⭐ Implementing Object-Oriented Programming fundamentals using the Flutter framework and Dart programming language.
 
 
 
