@@ -19,7 +19,7 @@
 **Backend and Functionality - Karen**
 
 
-<img align = "center" alt="pink-theory" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/77e404dd-fafb-4c8f-b6f5-086064ec0c37">
+<img align = "center" alt="pink-theory" width = "500" height = "500" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/77e404dd-fafb-4c8f-b6f5-086064ec0c37">
 
 # ABOUT
 
