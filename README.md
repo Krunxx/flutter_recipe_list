@@ -27,9 +27,6 @@ One of the standout features of Flutter Recipe List Official is its
  ⭐Users can create new recipe swith support for physical camera integration and image selection from the internet. 
  <br>
  <br>
- ⭐ ability to allow users to UPDATE and delete recipes and recipe items. 
- <br>
- <br>
  ⭐ Users can easily navigate to the recipe details page and click on the "Edit" or "Delete" button to modify or remove a recipe.
  <br>
  <br>
