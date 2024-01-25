@@ -1,19 +1,19 @@
 **FRONT END UI ASPECT**
  <br>
-1. Splash Screen EFFECT                -> Ommayah
-2. Drawer Navigation WIDGET           -> Ommayah
+1. Splash Screen              -> Ommayah
+2. Drawer Navigation        -> Ommayah
 
-3. Register PAGE                            -> Aillen
+3. Register                           -> Aillen
 
-4. Login   PAGE                             -> Aillen
+4. Login                             -> Aillen
 
-5. Add Recipe  PAGE                             -> Evami
+5. Add Recipe                               -> Evami
 
-6. View Recipe Details & Delete Recipe  PAGE     -> Washington
+6. View Recipe Details & Delete Recipe      -> Washington
 
-7. Update Recipe   PAGE                          -> Jessel Joy
+7. Update Recipe                            -> Jessel Joy
 
-8. Main View Screen   PAGE                       ->Jessel Joy
+8. Main View Screen                        ->Jessel Joy
 
 
 
