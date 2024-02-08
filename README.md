@@ -12,20 +12,6 @@ Making sure it has visually appealing design, positions it as a premier choice f
 
 <h3>BACKEND Source Link: https://github.com/Krunxx/recipe_api </h3>
 
-One of the standout features of Flutter Recipe List Official is 
- <br>
- ⭐ Can create new recipe with support for physical camera integration and image selection from the gallery. 
- <br>
- <br>
- ⭐ Can easily navigate to the recipe details page and click on the "Edit" or "Delete" button to modify or remove a recipe.
- <br>
- <br>
- ⭐ Search filter for recipe name, and viewing recipe details, making it a comprehensive tool for recipe management.
- <br>
-
-
-
-
 <img align = "center" alt="image" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/e00b5edc-eda2-4eb4-837d-5a54f08d2884">
 <br>
 <img align = "center" alt="image" width = "1000" height = "600" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/1c596fa2-9856-405b-b7cd-1148029d6104">
