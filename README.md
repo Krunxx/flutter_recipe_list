@@ -1,23 +1,3 @@
-**FRONT END UI ASPECT**
- <br>
-1. Splash Screen              -> Ommayah
-2. Drawer Navigation        -> Ommayah
-
-3. Register                           -> Aillen
-
-4. Login                             -> Aillen
-
-5. Add Recipe                               -> Evami
-
-6. View Recipe Details & Delete Recipe      -> Washington
-
-7. Update Recipe                            -> Jessel Joy
-
-8. Main View Screen                        ->Jessel Joy
-
-
-
-**Backend and Functionality - Karen**
 
 
 <img align = "center" alt="pink-theory" width = "200" height = "400" src = "https://github.com/Krunxx/flutter_recipe_list/assets/82696971/77e404dd-fafb-4c8f-b6f5-086064ec0c37">
