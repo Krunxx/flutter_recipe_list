@@ -22,11 +22,6 @@ One of the standout features of Flutter Recipe List Official is
  <br>
  ⭐ Search filter for recipe name, and viewing recipe details, making it a comprehensive tool for recipe management.
  <br>
- <br>
- ⭐ In addition to its CRUD functionality, it  also implements HTTP POST and GET requests, making it a robust and efficient solution for managing recipe data.
- <br>
- <br>
- ⭐ Implementing Object-Oriented Programming fundamentals using the Flutter framework and Dart programming language.
 
 
 
