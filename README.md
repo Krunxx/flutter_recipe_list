@@ -6,8 +6,7 @@
 
 
 
-Flutter Recipe List is a simple application that demonstrates 
-how to build a CRUD-enabled grid list of recipes using Flutter for the front-end and PHP with MySQL for the back-end.
+Flutter Recipe List is a simple application that demonstrates a CRUD-enabled grid list of recipes using Flutter for the front-end and PHP with MySQL for the back-end.
 Making sure it has visually appealing design, positions it as a premier choice for recipe management.
 
 <h3>BACKEND Source Link: https://github.com/Krunxx/recipe_api </h3>
